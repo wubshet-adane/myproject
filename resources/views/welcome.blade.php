@@ -487,7 +487,7 @@
                                 </path>
                             </svg>
                             <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/"
-                                    class="underline text-gray-900 dark:text-white">Laravel News</a></div>
+                                    class="underline text-gray-900 dark:text-white">Laravel News</a> {{ $name }}</div>
                         </div>
 
                         <div class="ml-12">

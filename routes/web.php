@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+$age = "esrael admasu";
+Route::get('/{age?}', function ($name = null) use($age) {
+    echo $age;
 });
